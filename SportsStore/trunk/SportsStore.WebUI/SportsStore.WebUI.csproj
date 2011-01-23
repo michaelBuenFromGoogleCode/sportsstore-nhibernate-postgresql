@@ -88,6 +88,7 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Views\Products\List.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -117,6 +118,10 @@
     <ProjectReference Include="..\SportsStore.Domain\SportsStore.Domain.csproj">
       <Project>{CEC8A1A7-307E-4D2C-9671-5E61FD877656}</Project>
       <Name>SportsStore.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebHelpers\WebHelpers.csproj">
+      <Project>{4B92AB77-75BA-40C7-AA99-9AF9677E9E45}</Project>
+      <Name>WebHelpers</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
